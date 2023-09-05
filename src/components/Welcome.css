@@ -1,0 +1,79 @@
+#welcome-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 50px 0 75px;
+    background: #fff;
+}
+
+.container {
+    text-align: center;
+    margin: 22px 65px;
+}
+
+#heading {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#welcome-container p {
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+    line-height: 23px;
+    font-weight: normal;
+    /* text-align: justify; */
+    /* margin: 0 0 10px; */
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btn-outline, .btn-outline:hover, .btn-outline:focus {
+    background: linear-gradient( 90deg, rgba(177, 30, 111, 1) 0%, rgba(74, 14, 192, 1) 100%) !important;
+    border: 2px solid #fff !important;
+    margin-top: 1rem;
+    font-size: 15px !important;
+    padding: 10px 20px !important;
+    border-radius: 30px !important;
+    color: #fff !important;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+@media only screen and (max-width: 1024px) {
+    h1 {
+        font-size: 22px;
+    }
+}
+
+

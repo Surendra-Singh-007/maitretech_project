@@ -1,0 +1,155 @@
+.carousel-wrapper{
+    height:80vh;
+    position:relative;
+    width:100%;
+    margin:0 auto;
+  }
+  .carousel-item{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:25px 50px;
+    opacity:0;
+    transition: all 0.5s ease-in-out;
+
+    
+
+  }
+  .arrow{
+    border: solid #000;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 12px;
+  }
+
+  
+  .arrow-prev{
+    left:-30px;
+    position:relative;
+    top:50%;
+    transform:translateY(-50%) rotate(135deg);
+  }
+   
+  .arrow-next{
+    right:30px;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%) rotate(-45deg);
+
+    }
+  
+  .light{
+    color:white;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .carousel-wrapper {
+      height: 35vh;
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+        .arrow, .light .arrow {
+          background-size: 10px;
+          background-position: 10px 50%;
+        }
+      }
+  
+  
+  
+  [id^="item"] {
+      display: none;
+    }
+  
+  .item-1 {
+      z-index: 2;
+      opacity: 1;
+    background:url('https://www.nifafinearts.com/banner-images/1952342548home-banner5.jpg');
+    background-size:cover;
+    }
+  .item-2{
+    background:url('https://www.nifafinearts.com/banner-images/1550551577home-banner1.jpg');
+     background-size:cover;
+  }
+  .item-3{
+    background:url('https://www.nifafinearts.com/banner-images/1273170038home-banner2.jpg');
+     background-size:cover;
+  }
+
+  .item-4{
+    background:url('https://www.nifafinearts.com/banner-images/1922909411home-banner3.jpg');
+     background-size:cover;
+  }
+
+  .item-5{
+    background:url('https://www.nifafinearts.com/banner-images/1858311846home-banner4.jpg');
+     background-size:cover;
+  }
+  
+  *:target ~ .item-1 {
+      opacity: 0;
+    }
+  
+  #item-1:target ~ .item-1 {
+      opacity: 1;
+    }
+  
+  #item-2:target ~ .item-2, #item-3:target ~ .item-3 {
+      z-index: 3;
+      opacity: 1;
+    }
+
+    #markque-container {
+        position: relative;
+        width: 100%;
+        height: auto;
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        display: inherit;
+        height: auto;
+    }
+
+    .container #part-marq {
+        display: flex;
+        align-items: center;
+        
+        padding-top: 10px;
+    
+    }
+
+    .container #part-marq #headingdd {
+        width: 200px;
+        padding: 0 50px;
+    }
+
+    .container #part-marq #marqueeq {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .container #part-marq #marqueeq p>strong {
+        display: inline-block;
+        font-size: 16px;
+        color: #b11e6f;
+        line-height: 23px;
+        font-weight: bold;
+        text-align: justify;
+    }
+  
+
+
+
+
+
+
+
+
+
+
+

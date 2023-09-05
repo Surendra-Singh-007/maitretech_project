@@ -1,0 +1,27 @@
+#student-container {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    background: url('https://www.nifafinearts.com/images/student-talk.jpg') no-repeat center;
+    background-size: cover;
+    padding: 70px 0;
+    background-attachment: fixed;
+}
+
+#student-container .container {
+    width: auto;
+    display: block;
+    text-align: center;
+    height: auto;
+}
+
+#student-container h2 {
+    color: #fff !important;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+embed-responsive-16by9 {
+    border: 20px solid transparent;
+}

@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+.work_container {
+    margin: 0 50px;
+    height:max-content;
+    /* border: 10px solid #000; */
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  .row {
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0 4px;
+    margin: 0 40px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    object-fit: cover;
+    height: 30vh;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .column {
+      flex: 50%;
+      max-width: 80%;
+    }
+  }
